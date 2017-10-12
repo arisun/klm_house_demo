@@ -39,20 +39,26 @@ class DetailViewController: UIViewController {
     }
 
     private func setUpFavButton(){
-        let infoButton = UIButton(type: .custom)
-        infoButton.frame = CGRect(x: 0.0, y: 0.0, width: 38.0, height: 40.0)
-        infoButton.addTarget(self, action: #selector(favButtonSelected(_:)), for: .touchUpInside)
-        infoButton.setImage(UIImage(named: "StarSelect"), for:.selected)
-        infoButton.setImage(UIImage(named: "StarDeselect"), for:.normal)
+        let favoriteButton = UIButton(type: .custom)
+
+        favoriteButton.frame = CGRect(x: 0.0, y: 0.0, width: 38.0, height: 40.0)
+
+        favoriteButton.addTarget(self, action: #selector(favButtonSelected(_:)), for: .touchUpInside)
+
+        favoriteButton.setImage(UIImage(named: "StarSelect"), for:.selected)
+
+        favoriteButton.setImage(UIImage(named: "StarDeselect"), for:.normal)
 
         if (houseData?.isUserCollected)!{
-            infoButton.isSelected = true
+
+            favoriteButton.isSelected = true
         }
         else{
-            infoButton.isSelected = false
+            favoriteButton.isSelected = false
         }
 
-        let barButton = UIBarButtonItem(customView: infoButton)
+        let barButton = UIBarButtonItem(customView: favoriteButton)
+
         self.navigationItem.rightBarButtonItem = barButton
 
     }
