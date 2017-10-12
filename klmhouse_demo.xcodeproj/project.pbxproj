@@ -18,8 +18,6 @@
 		E89421971F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E89421951F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld */; };
 		E89421991F8E1A570029E5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89421981F8E1A570029E5C7 /* Assets.xcassets */; };
 		E894219C1F8E1A570029E5C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E894219A1F8E1A570029E5C7 /* LaunchScreen.storyboard */; };
-		E89421A71F8E1A570029E5C7 /* klmhouse_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421A61F8E1A570029E5C7 /* klmhouse_demoTests.swift */; };
-		E89421B21F8E1A570029E5C7 /* klmhouse_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421B11F8E1A570029E5C7 /* klmhouse_demoUITests.swift */; };
 		E89421C21F8E21BD0029E5C7 /* HouseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421C11F8E21BD0029E5C7 /* HouseCollectionViewController.swift */; };
 		E89421C41F8E21D20029E5C7 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421C31F8E21D20029E5C7 /* MyCollectionViewController.swift */; };
 		E8FC3E741F8E997B00EBC11E /* CollectionViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */; };
@@ -64,11 +62,7 @@
 		E894219B1F8E1A570029E5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E894219D1F8E1A570029E5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E89421A21F8E1A570029E5C7 /* klmhouse_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klmhouse_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89421A61F8E1A570029E5C7 /* klmhouse_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klmhouse_demoTests.swift; sourceTree = "<group>"; };
-		E89421A81F8E1A570029E5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E89421AD1F8E1A570029E5C7 /* klmhouse_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klmhouse_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89421B11F8E1A570029E5C7 /* klmhouse_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klmhouse_demoUITests.swift; sourceTree = "<group>"; };
-		E89421B31F8E1A570029E5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E89421C11F8E21BD0029E5C7 /* HouseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseCollectionViewController.swift; sourceTree = "<group>"; };
 		E89421C31F8E21D20029E5C7 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomCell.swift; sourceTree = "<group>"; };
@@ -138,8 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				E894218D1F8E1A570029E5C7 /* klmhouse_demo */,
-				E89421A51F8E1A570029E5C7 /* klmhouse_demoTests */,
-				E89421B01F8E1A570029E5C7 /* klmhouse_demoUITests */,
 				E894218C1F8E1A570029E5C7 /* Products */,
 				B7DA1819CD9B012B25A1D9CC /* Pods */,
 				B6061504CA9026B5C0E5E4B1 /* Frameworks */,
@@ -171,24 +163,6 @@
 				E89421951F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld */,
 			);
 			path = klmhouse_demo;
-			sourceTree = "<group>";
-		};
-		E89421A51F8E1A570029E5C7 /* klmhouse_demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				E89421A61F8E1A570029E5C7 /* klmhouse_demoTests.swift */,
-				E89421A81F8E1A570029E5C7 /* Info.plist */,
-			);
-			path = klmhouse_demoTests;
-			sourceTree = "<group>";
-		};
-		E89421B01F8E1A570029E5C7 /* klmhouse_demoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E89421B11F8E1A570029E5C7 /* klmhouse_demoUITests.swift */,
-				E89421B31F8E1A570029E5C7 /* Info.plist */,
-			);
-			path = klmhouse_demoUITests;
 			sourceTree = "<group>";
 		};
 		E89421BF1F8E1BE80029E5C7 /* Controllers */ = {
@@ -527,7 +501,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E89421A71F8E1A570029E5C7 /* klmhouse_demoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +508,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E89421B21F8E1A570029E5C7 /* klmhouse_demoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
