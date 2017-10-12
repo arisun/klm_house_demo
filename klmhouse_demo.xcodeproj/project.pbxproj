@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB40C1AEC28AECF0A2310B6 /* Pods_klmhouse_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D4EE4C11EDA03D720B91CE /* Pods_klmhouse_demo.framework */; };
+		5F821EFA9DCEED7ACB8C0972 /* Pods_klmhouse_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721927E732B21BD31505E36E /* Pods_klmhouse_demoUITests.framework */; };
+		DBD6EB006B78D72457CB6D4C /* Pods_klmhouse_demo_klmhouse_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E95F6D1D923EBBEFD8C8A6 /* Pods_klmhouse_demo_klmhouse_demoTests.framework */; };
+		E894218F1F8E1A570029E5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894218E1F8E1A570029E5C7 /* AppDelegate.swift */; };
+		E89421911F8E1A570029E5C7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421901F8E1A570029E5C7 /* MasterViewController.swift */; };
+		E89421941F8E1A570029E5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89421921F8E1A570029E5C7 /* Main.storyboard */; };
+		E89421971F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E89421951F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld */; };
+		E89421991F8E1A570029E5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89421981F8E1A570029E5C7 /* Assets.xcassets */; };
+		E894219C1F8E1A570029E5C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E894219A1F8E1A570029E5C7 /* LaunchScreen.storyboard */; };
+		E89421A71F8E1A570029E5C7 /* klmhouse_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421A61F8E1A570029E5C7 /* klmhouse_demoTests.swift */; };
+		E89421B21F8E1A570029E5C7 /* klmhouse_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421B11F8E1A570029E5C7 /* klmhouse_demoUITests.swift */; };
+		E89421C21F8E21BD0029E5C7 /* HouseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421C11F8E21BD0029E5C7 /* HouseCollectionViewController.swift */; };
+		E89421C41F8E21D20029E5C7 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421C31F8E21D20029E5C7 /* MyCollectionViewController.swift */; };
+		E8FC3E741F8E997B00EBC11E /* CollectionViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */; };
+		E8FC3E761F8EA56500EBC11E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC3E751F8EA56500EBC11E /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E89421A31F8E1A570029E5C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89421831F8E1A570029E5C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E894218A1F8E1A570029E5C7;
+			remoteInfo = klmhouse_demo;
+		};
+		E89421AE1F8E1A570029E5C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89421831F8E1A570029E5C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E894218A1F8E1A570029E5C7;
+			remoteInfo = klmhouse_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163B853AF9C37E78933D9E5C /* Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B22B456D5A415799E9F3E8C /* Pods-klmhouse_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demoUITests/Pods-klmhouse_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		721927E732B21BD31505E36E /* Pods_klmhouse_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klmhouse_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29BD48204D46ECF2EB6F7F /* Pods-klmhouse_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demoUITests/Pods-klmhouse_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0D4EE4C11EDA03D720B91CE /* Pods_klmhouse_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klmhouse_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A636AE2943CEB1ACA7E85406 /* Pods-klmhouse_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo.release.xcconfig"; sourceTree = "<group>"; };
+		B6E95F6D1D923EBBEFD8C8A6 /* Pods_klmhouse_demo_klmhouse_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klmhouse_demo_klmhouse_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1552DEBCBB151CF53C39FE5 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D015D29DFC81788F06692D /* Pods-klmhouse_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E894218B1F8E1A570029E5C7 /* klmhouse_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klmhouse_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E894218E1F8E1A570029E5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E89421901F8E1A570029E5C7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E89421931F8E1A570029E5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E89421961F8E1A570029E5C7 /* klmhouse_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = klmhouse_demo.xcdatamodel; sourceTree = "<group>"; };
+		E89421981F8E1A570029E5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E894219B1F8E1A570029E5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E894219D1F8E1A570029E5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89421A21F8E1A570029E5C7 /* klmhouse_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klmhouse_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89421A61F8E1A570029E5C7 /* klmhouse_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klmhouse_demoTests.swift; sourceTree = "<group>"; };
+		E89421A81F8E1A570029E5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89421AD1F8E1A570029E5C7 /* klmhouse_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klmhouse_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89421B11F8E1A570029E5C7 /* klmhouse_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klmhouse_demoUITests.swift; sourceTree = "<group>"; };
+		E89421B31F8E1A570029E5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89421C11F8E21BD0029E5C7 /* HouseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseCollectionViewController.swift; sourceTree = "<group>"; };
+		E89421C31F8E21D20029E5C7 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomCell.swift; sourceTree = "<group>"; };
+		E8FC3E751F8EA56500EBC11E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E89421881F8E1A570029E5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB40C1AEC28AECF0A2310B6 /* Pods_klmhouse_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894219F1F8E1A570029E5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD6EB006B78D72457CB6D4C /* Pods_klmhouse_demo_klmhouse_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89421AA1F8E1A570029E5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F821EFA9DCEED7ACB8C0972 /* Pods_klmhouse_demoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6061504CA9026B5C0E5E4B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4EE4C11EDA03D720B91CE /* Pods_klmhouse_demo.framework */,
+				B6E95F6D1D923EBBEFD8C8A6 /* Pods_klmhouse_demo_klmhouse_demoTests.framework */,
+				721927E732B21BD31505E36E /* Pods_klmhouse_demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DA1819CD9B012B25A1D9CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D015D29DFC81788F06692D /* Pods-klmhouse_demo.debug.xcconfig */,
+				A636AE2943CEB1ACA7E85406 /* Pods-klmhouse_demo.release.xcconfig */,
+				163B853AF9C37E78933D9E5C /* Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig */,
+				D1552DEBCBB151CF53C39FE5 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */,
+				4B22B456D5A415799E9F3E8C /* Pods-klmhouse_demoUITests.debug.xcconfig */,
+				7A29BD48204D46ECF2EB6F7F /* Pods-klmhouse_demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E89421821F8E1A570029E5C7 = {
+			isa = PBXGroup;
+			children = (
+				E894218D1F8E1A570029E5C7 /* klmhouse_demo */,
+				E89421A51F8E1A570029E5C7 /* klmhouse_demoTests */,
+				E89421B01F8E1A570029E5C7 /* klmhouse_demoUITests */,
+				E894218C1F8E1A570029E5C7 /* Products */,
+				B7DA1819CD9B012B25A1D9CC /* Pods */,
+				B6061504CA9026B5C0E5E4B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E894218C1F8E1A570029E5C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E894218B1F8E1A570029E5C7 /* klmhouse_demo.app */,
+				E89421A21F8E1A570029E5C7 /* klmhouse_demoTests.xctest */,
+				E89421AD1F8E1A570029E5C7 /* klmhouse_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E894218D1F8E1A570029E5C7 /* klmhouse_demo */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC3E701F8E587500EBC11E /* Utility */,
+				E89421BF1F8E1BE80029E5C7 /* Controllers */,
+				E89421C01F8E1FFC0029E5C7 /* Models */,
+				E894218E1F8E1A570029E5C7 /* AppDelegate.swift */,
+				E89421921F8E1A570029E5C7 /* Main.storyboard */,
+				E89421981F8E1A570029E5C7 /* Assets.xcassets */,
+				E894219A1F8E1A570029E5C7 /* LaunchScreen.storyboard */,
+				E894219D1F8E1A570029E5C7 /* Info.plist */,
+				E89421951F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld */,
+			);
+			path = klmhouse_demo;
+			sourceTree = "<group>";
+		};
+		E89421A51F8E1A570029E5C7 /* klmhouse_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E89421A61F8E1A570029E5C7 /* klmhouse_demoTests.swift */,
+				E89421A81F8E1A570029E5C7 /* Info.plist */,
+			);
+			path = klmhouse_demoTests;
+			sourceTree = "<group>";
+		};
+		E89421B01F8E1A570029E5C7 /* klmhouse_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E89421B11F8E1A570029E5C7 /* klmhouse_demoUITests.swift */,
+				E89421B31F8E1A570029E5C7 /* Info.plist */,
+			);
+			path = klmhouse_demoUITests;
+			sourceTree = "<group>";
+		};
+		E89421BF1F8E1BE80029E5C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E89421901F8E1A570029E5C7 /* MasterViewController.swift */,
+				E89421C11F8E21BD0029E5C7 /* HouseCollectionViewController.swift */,
+				E89421C31F8E21D20029E5C7 /* MyCollectionViewController.swift */,
+				E8FC3E751F8EA56500EBC11E /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E89421C01F8E1FFC0029E5C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E8FC3E701F8E587500EBC11E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E894218A1F8E1A570029E5C7 /* klmhouse_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89421B61F8E1A570029E5C7 /* Build configuration list for PBXNativeTarget "klmhouse_demo" */;
+			buildPhases = (
+				CE0B9AA348C1B7C578E2F9E4 /* [CP] Check Pods Manifest.lock */,
+				E89421871F8E1A570029E5C7 /* Sources */,
+				E89421881F8E1A570029E5C7 /* Frameworks */,
+				E89421891F8E1A570029E5C7 /* Resources */,
+				21122556DE797F8DE3A0752E /* [CP] Embed Pods Frameworks */,
+				7C92BF4A08FD30AC8AED7FD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klmhouse_demo;
+			productName = klmhouse_demo;
+			productReference = E894218B1F8E1A570029E5C7 /* klmhouse_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E89421A11F8E1A570029E5C7 /* klmhouse_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89421B91F8E1A570029E5C7 /* Build configuration list for PBXNativeTarget "klmhouse_demoTests" */;
+			buildPhases = (
+				2A4F5945EC1C1B223FDE5B3D /* [CP] Check Pods Manifest.lock */,
+				E894219E1F8E1A570029E5C7 /* Sources */,
+				E894219F1F8E1A570029E5C7 /* Frameworks */,
+				E89421A01F8E1A570029E5C7 /* Resources */,
+				C716756ED4B0DEEB9B879C68 /* [CP] Embed Pods Frameworks */,
+				4E0514E67AA43767F471FBA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89421A41F8E1A570029E5C7 /* PBXTargetDependency */,
+			);
+			name = klmhouse_demoTests;
+			productName = klmhouse_demoTests;
+			productReference = E89421A21F8E1A570029E5C7 /* klmhouse_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E89421AC1F8E1A570029E5C7 /* klmhouse_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89421BC1F8E1A570029E5C7 /* Build configuration list for PBXNativeTarget "klmhouse_demoUITests" */;
+			buildPhases = (
+				1FCE168450191660E3EFCAC1 /* [CP] Check Pods Manifest.lock */,
+				E89421A91F8E1A570029E5C7 /* Sources */,
+				E89421AA1F8E1A570029E5C7 /* Frameworks */,
+				E89421AB1F8E1A570029E5C7 /* Resources */,
+				A1BDAEBE01BBE54EFD3C8FA8 /* [CP] Embed Pods Frameworks */,
+				EA6E7EDA943BEA76E9EFBD82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89421AF1F8E1A570029E5C7 /* PBXTargetDependency */,
+			);
+			name = klmhouse_demoUITests;
+			productName = klmhouse_demoUITests;
+			productReference = E89421AD1F8E1A570029E5C7 /* klmhouse_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E89421831F8E1A570029E5C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = arindam_ghosh;
+				TargetAttributes = {
+					E894218A1F8E1A570029E5C7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E89421A11F8E1A570029E5C7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E894218A1F8E1A570029E5C7;
+					};
+					E89421AC1F8E1A570029E5C7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E894218A1F8E1A570029E5C7;
+					};
+				};
+			};
+			buildConfigurationList = E89421861F8E1A570029E5C7 /* Build configuration list for PBXProject "klmhouse_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E89421821F8E1A570029E5C7;
+			productRefGroup = E894218C1F8E1A570029E5C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E894218A1F8E1A570029E5C7 /* klmhouse_demo */,
+				E89421A11F8E1A570029E5C7 /* klmhouse_demoTests */,
+				E89421AC1F8E1A570029E5C7 /* klmhouse_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E89421891F8E1A570029E5C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E894219C1F8E1A570029E5C7 /* LaunchScreen.storyboard in Resources */,
+				E89421991F8E1A570029E5C7 /* Assets.xcassets in Resources */,
+				E89421941F8E1A570029E5C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89421A01F8E1A570029E5C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89421AB1F8E1A570029E5C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCE168450191660E3EFCAC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-klmhouse_demoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21122556DE797F8DE3A0752E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4F5945EC1C1B223FDE5B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-klmhouse_demo-klmhouse_demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E0514E67AA43767F471FBA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C92BF4A08FD30AC8AED7FD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1BDAEBE01BBE54EFD3C8FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demoUITests/Pods-klmhouse_demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C716756ED4B0DEEB9B879C68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSQCoreDataKit/JSQCoreDataKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQCoreDataKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0B9AA348C1B7C578E2F9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-klmhouse_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6E7EDA943BEA76E9EFBD82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-klmhouse_demoUITests/Pods-klmhouse_demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E89421871F8E1A570029E5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89421911F8E1A570029E5C7 /* MasterViewController.swift in Sources */,
+				E89421C21F8E21BD0029E5C7 /* HouseCollectionViewController.swift in Sources */,
+				E894218F1F8E1A570029E5C7 /* AppDelegate.swift in Sources */,
+				E89421C41F8E21D20029E5C7 /* MyCollectionViewController.swift in Sources */,
+				E89421971F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld in Sources */,
+				E8FC3E741F8E997B00EBC11E /* CollectionViewCustomCell.swift in Sources */,
+				E8FC3E761F8EA56500EBC11E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E894219E1F8E1A570029E5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89421A71F8E1A570029E5C7 /* klmhouse_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89421A91F8E1A570029E5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89421B21F8E1A570029E5C7 /* klmhouse_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E89421A41F8E1A570029E5C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E894218A1F8E1A570029E5C7 /* klmhouse_demo */;
+			targetProxy = E89421A31F8E1A570029E5C7 /* PBXContainerItemProxy */;
+		};
+		E89421AF1F8E1A570029E5C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E894218A1F8E1A570029E5C7 /* klmhouse_demo */;
+			targetProxy = E89421AE1F8E1A570029E5C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E89421921F8E1A570029E5C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E89421931F8E1A570029E5C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E894219A1F8E1A570029E5C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E894219B1F8E1A570029E5C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E89421B41F8E1A570029E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E89421B51F8E1A570029E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E89421B71F8E1A570029E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D015D29DFC81788F06692D /* Pods-klmhouse_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = klmhouse_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.klmhouse-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E89421B81F8E1A570029E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A636AE2943CEB1ACA7E85406 /* Pods-klmhouse_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = klmhouse_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.klmhouse-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E89421BA1F8E1A570029E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163B853AF9C37E78933D9E5C /* Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = klmhouse_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.klmhouse-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klmhouse_demo.app/klmhouse_demo";
+			};
+			name = Debug;
+		};
+		E89421BB1F8E1A570029E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1552DEBCBB151CF53C39FE5 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = klmhouse_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.klmhouse-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klmhouse_demo.app/klmhouse_demo";
+			};
+			name = Release;
+		};
+		E89421BD1F8E1A570029E5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B22B456D5A415799E9F3E8C /* Pods-klmhouse_demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = klmhouse_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.klmhouse-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = klmhouse_demo;
+			};
+			name = Debug;
+		};
+		E89421BE1F8E1A570029E5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A29BD48204D46ECF2EB6F7F /* Pods-klmhouse_demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = klmhouse_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.home.klmhouse-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = klmhouse_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E89421861F8E1A570029E5C7 /* Build configuration list for PBXProject "klmhouse_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89421B41F8E1A570029E5C7 /* Debug */,
+				E89421B51F8E1A570029E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89421B61F8E1A570029E5C7 /* Build configuration list for PBXNativeTarget "klmhouse_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89421B71F8E1A570029E5C7 /* Debug */,
+				E89421B81F8E1A570029E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89421B91F8E1A570029E5C7 /* Build configuration list for PBXNativeTarget "klmhouse_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89421BA1F8E1A570029E5C7 /* Debug */,
+				E89421BB1F8E1A570029E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89421BC1F8E1A570029E5C7 /* Build configuration list for PBXNativeTarget "klmhouse_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89421BD1F8E1A570029E5C7 /* Debug */,
+				E89421BE1F8E1A570029E5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E89421951F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E89421961F8E1A570029E5C7 /* klmhouse_demo.xcdatamodel */,
+			);
+			currentVersion = E89421961F8E1A570029E5C7 /* klmhouse_demo.xcdatamodel */;
+			path = klmhouse_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E89421831F8E1A570029E5C7 /* Project object */;
+}

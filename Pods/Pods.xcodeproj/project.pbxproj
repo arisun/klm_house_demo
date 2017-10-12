@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F2EE57EA34E8D54483283D66FC0B32 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97A1A3D1C844D38D0AE130A1A80A88 /* StoreType.swift */; };
+		079FABF71AF090DF314D762873C7D4C3 /* Pods-klmhouse_demoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA8C31DA802D3E9E759C617E3C6EDD4 /* Pods-klmhouse_demoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0804164EC2384511B0D7CF3B1058A081 /* Pods-klmhouse_demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF495D33331DD782A1616591AFDD120 /* Pods-klmhouse_demo-dummy.m */; };
+		1A7ABCBDCDA12A5AE8643C36140B0067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */; };
+		1D070120337DA7B6D62FE4F4F82ACE85 /* Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18132EEAC8461CB289F66DD403DBF4A0 /* Equatable.swift */; };
+		2CFF298DDE12D684308ABD30D7B21382 /* StackResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1837FD52BE6F5B3121D57D9233B46 /* StackResult.swift */; };
+		3B70F97AA6F56A6496D76B63B5A3EF6E /* Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F692532C0E2642994D431B5602ED065A /* Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4090152A7E603F45D3B655C6936B16A4 /* Pods-klmhouse_demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3AE2237F4EC7406932464D6AF2DB8C /* Pods-klmhouse_demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5E75094200977C35DF8F98AE95DFED /* Pods-klmhouse_demo-klmhouse_demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678ABF2D5904050F56F3651DC3E36330 /* Pods-klmhouse_demo-klmhouse_demoTests-dummy.m */; };
+		6CEF68E776854C3B292A0BAEE2ED01AC /* Pods-klmhouse_demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC6657F6823FF94F2F7C20153F32BD /* Pods-klmhouse_demoUITests-dummy.m */; };
+		7243AB32D074D55C8E17338CB8E6DC31 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E85C499A3D4C63C61D4F6E39F0EE68 /* CoreDataStack.swift */; };
+		8D2E618DEABD8BBB4CB5895B9CE650D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */; };
+		8E34325C634ED3191DE9C8093B625519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */; };
+		8ECB6762C18707DEBADAC7D1F069B5C4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A7BE07A93D389088D0712B8DA370ED /* CoreData.framework */; };
+		98AC062F3C93E1F2E579880ABF629C99 /* CoreDataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6E99FB3F7C2BB34DC0234600925AEE /* CoreDataFunctions.swift */; };
+		99F4E1460A3040288DD91C5048ED018B /* CoreDataStackFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B65222A3E3F545B2771ED0565045A6 /* CoreDataStackFactory.swift */; };
+		B5233E0FC4CF6ED0A65508100333684E /* Migrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9B9E75EA26980DD755677E571CCD0 /* Migrate.swift */; };
+		C6E672FB28EC47256C453F9087C33BFC /* JSQCoreDataKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC13E731E12CCF3EF42100098D9A3E /* JSQCoreDataKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBEA6C56209BDEC62CEFB0E331618C5F /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03F69DD986FD8B03681351EDA53824 /* CoreDataModel.swift */; };
+		DE1CCE77D41F843C57CFBD36B0447BD2 /* JSQCoreDataKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66E717AD9E4354EFBC71E6EF11B4863 /* JSQCoreDataKit-dummy.m */; };
+		E165AE2690E1B108D2462953DA79E39C /* SaveResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AA3A45BAC09D3715F719EBC50EB88A /* SaveResult.swift */; };
+		E2943A08521F541D9C2692FC8EF035CB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91A16C0AE3D3E1F42CE17A2D9DC218 /* Utils.swift */; };
+		E4EC4EDE9615EBAF58435AF3A44C2358 /* CoreDataEntityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A654A078756E009BEE1FAC2BD410348 /* CoreDataEntityProtocol.swift */; };
+		FE8D3C9CCDC56CEA32EC96A7655DCDFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		823D7D2641CC9BA380F970667AD86951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470BD75C98E16C18F28E6DF5C1B027E5;
+			remoteInfo = JSQCoreDataKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C9255A6CAC1D582A7C947D9697B15E /* Pods-klmhouse_demo-klmhouse_demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klmhouse_demo-klmhouse_demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E03F69DD986FD8B03681351EDA53824 /* CoreDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataModel.swift; path = Source/CoreDataModel.swift; sourceTree = "<group>"; };
+		13D60DDE2B48929BE87B6154F51FFD01 /* Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13E85C499A3D4C63C61D4F6E39F0EE68 /* CoreDataStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Source/CoreDataStack.swift; sourceTree = "<group>"; };
+		156B85534D8D1A53672BB781F33724D5 /* JSQCoreDataKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSQCoreDataKit.xcconfig; sourceTree = "<group>"; };
+		15E13995C7D81F262FBA6E239D8597DB /* Pods-klmhouse_demoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klmhouse_demoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		18132EEAC8461CB289F66DD403DBF4A0 /* Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equatable.swift; path = Source/Equatable.swift; sourceTree = "<group>"; };
+		18617A93124EB940AA8A034862844D78 /* Pods-klmhouse_demo-klmhouse_demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klmhouse_demo-klmhouse_demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D91A16C0AE3D3E1F42CE17A2D9DC218 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Source/Utils.swift; sourceTree = "<group>"; };
+		1EFB85732AC62BF5D8F6D4654AD658D4 /* JSQCoreDataKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSQCoreDataKit.modulemap; sourceTree = "<group>"; };
+		3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39D5DF725FCF34BBABA89D423E5CCCF8 /* Pods-klmhouse_demo-klmhouse_demoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klmhouse_demo-klmhouse_demoTests-frameworks.sh"; sourceTree = "<group>"; };
+		3CA8C31DA802D3E9E759C617E3C6EDD4 /* Pods-klmhouse_demoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klmhouse_demoUITests-umbrella.h"; sourceTree = "<group>"; };
+		3D84B91FAF6515B23FC047BBDE61F818 /* Pods-klmhouse_demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klmhouse_demo.modulemap"; sourceTree = "<group>"; };
+		40AA3A45BAC09D3715F719EBC50EB88A /* SaveResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SaveResult.swift; path = Source/SaveResult.swift; sourceTree = "<group>"; };
+		42B92D5608631B257927FBBBCBE73B8C /* Pods-klmhouse_demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klmhouse_demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CDC6657F6823FF94F2F7C20153F32BD /* Pods-klmhouse_demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klmhouse_demoUITests-dummy.m"; sourceTree = "<group>"; };
+		4D306ED96B75617CF175E73FAAFCBA11 /* Pods-klmhouse_demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klmhouse_demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F4489FDAC48B9B3B18251F3B268BD7C /* Pods-klmhouse_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klmhouse_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		597AC1B90352D3927CF01BE26CC8F084 /* Pods-klmhouse_demoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klmhouse_demoUITests.modulemap"; sourceTree = "<group>"; };
+		601B5CE8B3A0CA401237C69C381F3385 /* Pods-klmhouse_demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klmhouse_demo-frameworks.sh"; sourceTree = "<group>"; };
+		678ABF2D5904050F56F3651DC3E36330 /* Pods-klmhouse_demo-klmhouse_demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klmhouse_demo-klmhouse_demoTests-dummy.m"; sourceTree = "<group>"; };
+		6A80468AB2E10D00321133D181158560 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		77D060ABFADFDFD1EE8FAA7B0B929C88 /* Pods-klmhouse_demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-klmhouse_demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F0D90E45D964FB0AB751DFC47B79A8E /* Pods_klmhouse_demo_klmhouse_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klmhouse_demo_klmhouse_demoTests.framework; path = "Pods-klmhouse_demo-klmhouse_demoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888145509E92D0B8335D15438FEAE91B /* Pods-klmhouse_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klmhouse_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		89801C1AA1E05A9EAACA6734A49EABDD /* Pods-klmhouse_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klmhouse_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D5642FA3E8BA6CAECE26AE7B26A66F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9ABA4B2EAB180C2E724481F1E2DC42 /* Pods-klmhouse_demo-klmhouse_demoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klmhouse_demo-klmhouse_demoTests-resources.sh"; sourceTree = "<group>"; };
+		906E725BB838DBC6069CAD7006D4DDBB /* JSQCoreDataKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQCoreDataKit-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D029BEA8156386563C25912D6DE9B7 /* Pods-klmhouse_demoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klmhouse_demoUITests-resources.sh"; sourceTree = "<group>"; };
+		9A654A078756E009BEE1FAC2BD410348 /* CoreDataEntityProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataEntityProtocol.swift; path = Source/CoreDataEntityProtocol.swift; sourceTree = "<group>"; };
+		9AD965C9BFDB44CF221C462C3AC1274D /* Pods_klmhouse_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klmhouse_demoUITests.framework; path = "Pods-klmhouse_demoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF495D33331DD782A1616591AFDD120 /* Pods-klmhouse_demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-klmhouse_demo-dummy.m"; sourceTree = "<group>"; };
+		9FDC13E731E12CCF3EF42100098D9A3E /* JSQCoreDataKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSQCoreDataKit-umbrella.h"; sourceTree = "<group>"; };
+		A740846275C1A9AB90D8C4BA85431B08 /* Pods_klmhouse_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_klmhouse_demo.framework; path = "Pods-klmhouse_demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D0CF21F00F80325977957D7D52841D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC95CCF59EF575F5B3AC58067CB1437 /* Pods-klmhouse_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-klmhouse_demo.release.xcconfig"; sourceTree = "<group>"; };
+		B1C2095D1714C2D12DD4286F2D8A4D10 /* Pods-klmhouse_demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-klmhouse_demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C24039F46D3AC66B2204AB58313D3593 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66E717AD9E4354EFBC71E6EF11B4863 /* JSQCoreDataKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSQCoreDataKit-dummy.m"; sourceTree = "<group>"; };
+		D9E9B9E75EA26980DD755677E571CCD0 /* Migrate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migrate.swift; path = Source/Migrate.swift; sourceTree = "<group>"; };
+		DD6E99FB3F7C2BB34DC0234600925AEE /* CoreDataFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataFunctions.swift; path = Source/CoreDataFunctions.swift; sourceTree = "<group>"; };
+		DE9B28405DA3E8DD7C865F92D5FC6A62 /* Pods-klmhouse_demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-klmhouse_demo-resources.sh"; sourceTree = "<group>"; };
+		E33F9C08A86AE1ACB72BFAD53C6052CC /* Pods-klmhouse_demo-klmhouse_demoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-klmhouse_demo-klmhouse_demoTests.modulemap"; sourceTree = "<group>"; };
+		E3B65222A3E3F545B2771ED0565045A6 /* CoreDataStackFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStackFactory.swift; path = Source/CoreDataStackFactory.swift; sourceTree = "<group>"; };
+		EC97A1A3D1C844D38D0AE130A1A80A88 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = Source/StoreType.swift; sourceTree = "<group>"; };
+		ECA1837FD52BE6F5B3121D57D9233B46 /* StackResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackResult.swift; path = Source/StackResult.swift; sourceTree = "<group>"; };
+		ECE178CE7EF59C512CACA28BA4E9A297 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3AE2237F4EC7406932464D6AF2DB8C /* Pods-klmhouse_demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klmhouse_demo-umbrella.h"; sourceTree = "<group>"; };
+		F12000D63A2285233C29FA26C62A697F /* JSQCoreDataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSQCoreDataKit.framework; path = JSQCoreDataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F692532C0E2642994D431B5602ED065A /* Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h"; sourceTree = "<group>"; };
+		F7A7BE07A93D389088D0712B8DA370ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C51FB402FB4DFA3F25C61C75A2B889A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E34325C634ED3191DE9C8093B625519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B3BCF4BDAF64C215F4791046E9E50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2E618DEABD8BBB4CB5895B9CE650D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205D0DA839DE02E53A5774EB8C89B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECB6762C18707DEBADAC7D1F069B5C4 /* CoreData.framework in Frameworks */,
+				1A7ABCBDCDA12A5AE8643C36140B0067 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F268327860D2884DCAB66B7B075E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8D3C9CCDC56CEA32EC96A7655DCDFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13322CB1C64A7E8B0A888EED1757134E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819E60E24660E42B9428CA48CC9BB209 /* JSQCoreDataKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81C0CB292E45FAFBFC1DA48D35250D0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B29EF8F2DC016E758CA8B6B756F6409 /* Pods-klmhouse_demo */ = {
+			isa = PBXGroup;
+			children = (
+				A9D0CF21F00F80325977957D7D52841D /* Info.plist */,
+				3D84B91FAF6515B23FC047BBDE61F818 /* Pods-klmhouse_demo.modulemap */,
+				B1C2095D1714C2D12DD4286F2D8A4D10 /* Pods-klmhouse_demo-acknowledgements.markdown */,
+				77D060ABFADFDFD1EE8FAA7B0B929C88 /* Pods-klmhouse_demo-acknowledgements.plist */,
+				9BF495D33331DD782A1616591AFDD120 /* Pods-klmhouse_demo-dummy.m */,
+				601B5CE8B3A0CA401237C69C381F3385 /* Pods-klmhouse_demo-frameworks.sh */,
+				DE9B28405DA3E8DD7C865F92D5FC6A62 /* Pods-klmhouse_demo-resources.sh */,
+				ED3AE2237F4EC7406932464D6AF2DB8C /* Pods-klmhouse_demo-umbrella.h */,
+				888145509E92D0B8335D15438FEAE91B /* Pods-klmhouse_demo.debug.xcconfig */,
+				ACC95CCF59EF575F5B3AC58067CB1437 /* Pods-klmhouse_demo.release.xcconfig */,
+			);
+			name = "Pods-klmhouse_demo";
+			path = "Target Support Files/Pods-klmhouse_demo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				13322CB1C64A7E8B0A888EED1757134E /* Pods */,
+				B8E0AA948416237EB21A44415A4CADE5 /* Products */,
+				A4F0F504135977CBDC26EA823C124285 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		819E60E24660E42B9428CA48CC9BB209 /* JSQCoreDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A654A078756E009BEE1FAC2BD410348 /* CoreDataEntityProtocol.swift */,
+				DD6E99FB3F7C2BB34DC0234600925AEE /* CoreDataFunctions.swift */,
+				0E03F69DD986FD8B03681351EDA53824 /* CoreDataModel.swift */,
+				13E85C499A3D4C63C61D4F6E39F0EE68 /* CoreDataStack.swift */,
+				E3B65222A3E3F545B2771ED0565045A6 /* CoreDataStackFactory.swift */,
+				18132EEAC8461CB289F66DD403DBF4A0 /* Equatable.swift */,
+				D9E9B9E75EA26980DD755677E571CCD0 /* Migrate.swift */,
+				40AA3A45BAC09D3715F719EBC50EB88A /* SaveResult.swift */,
+				ECA1837FD52BE6F5B3121D57D9233B46 /* StackResult.swift */,
+				EC97A1A3D1C844D38D0AE130A1A80A88 /* StoreType.swift */,
+				1D91A16C0AE3D3E1F42CE17A2D9DC218 /* Utils.swift */,
+				87B0ADAC630E93E45B58AE460B5C6CE5 /* Support Files */,
+			);
+			name = JSQCoreDataKit;
+			path = JSQCoreDataKit;
+			sourceTree = "<group>";
+		};
+		87B0ADAC630E93E45B58AE460B5C6CE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24039F46D3AC66B2204AB58313D3593 /* Info.plist */,
+				1EFB85732AC62BF5D8F6D4654AD658D4 /* JSQCoreDataKit.modulemap */,
+				156B85534D8D1A53672BB781F33724D5 /* JSQCoreDataKit.xcconfig */,
+				D66E717AD9E4354EFBC71E6EF11B4863 /* JSQCoreDataKit-dummy.m */,
+				906E725BB838DBC6069CAD7006D4DDBB /* JSQCoreDataKit-prefix.pch */,
+				9FDC13E731E12CCF3EF42100098D9A3E /* JSQCoreDataKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSQCoreDataKit";
+			sourceTree = "<group>";
+		};
+		95F5AB23FC4B01C5F3517353CDAED81E /* Pods-klmhouse_demo-klmhouse_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE178CE7EF59C512CACA28BA4E9A297 /* Info.plist */,
+				E33F9C08A86AE1ACB72BFAD53C6052CC /* Pods-klmhouse_demo-klmhouse_demoTests.modulemap */,
+				18617A93124EB940AA8A034862844D78 /* Pods-klmhouse_demo-klmhouse_demoTests-acknowledgements.markdown */,
+				01C9255A6CAC1D582A7C947D9697B15E /* Pods-klmhouse_demo-klmhouse_demoTests-acknowledgements.plist */,
+				678ABF2D5904050F56F3651DC3E36330 /* Pods-klmhouse_demo-klmhouse_demoTests-dummy.m */,
+				39D5DF725FCF34BBABA89D423E5CCCF8 /* Pods-klmhouse_demo-klmhouse_demoTests-frameworks.sh */,
+				8E9ABA4B2EAB180C2E724481F1E2DC42 /* Pods-klmhouse_demo-klmhouse_demoTests-resources.sh */,
+				F692532C0E2642994D431B5602ED065A /* Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h */,
+				13D60DDE2B48929BE87B6154F51FFD01 /* Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig */,
+				6A80468AB2E10D00321133D181158560 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */,
+			);
+			name = "Pods-klmhouse_demo-klmhouse_demoTests";
+			path = "Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests";
+			sourceTree = "<group>";
+		};
+		A192ED380D4EB75FBDD6A04EE7564FCB /* Pods-klmhouse_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D5642FA3E8BA6CAECE26AE7B26A66F9 /* Info.plist */,
+				597AC1B90352D3927CF01BE26CC8F084 /* Pods-klmhouse_demoUITests.modulemap */,
+				42B92D5608631B257927FBBBCBE73B8C /* Pods-klmhouse_demoUITests-acknowledgements.markdown */,
+				4D306ED96B75617CF175E73FAAFCBA11 /* Pods-klmhouse_demoUITests-acknowledgements.plist */,
+				4CDC6657F6823FF94F2F7C20153F32BD /* Pods-klmhouse_demoUITests-dummy.m */,
+				15E13995C7D81F262FBA6E239D8597DB /* Pods-klmhouse_demoUITests-frameworks.sh */,
+				94D029BEA8156386563C25912D6DE9B7 /* Pods-klmhouse_demoUITests-resources.sh */,
+				3CA8C31DA802D3E9E759C617E3C6EDD4 /* Pods-klmhouse_demoUITests-umbrella.h */,
+				4F4489FDAC48B9B3B18251F3B268BD7C /* Pods-klmhouse_demoUITests.debug.xcconfig */,
+				89801C1AA1E05A9EAACA6734A49EABDD /* Pods-klmhouse_demoUITests.release.xcconfig */,
+			);
+			name = "Pods-klmhouse_demoUITests";
+			path = "Target Support Files/Pods-klmhouse_demoUITests";
+			sourceTree = "<group>";
+		};
+		A4F0F504135977CBDC26EA823C124285 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B29EF8F2DC016E758CA8B6B756F6409 /* Pods-klmhouse_demo */,
+				95F5AB23FC4B01C5F3517353CDAED81E /* Pods-klmhouse_demo-klmhouse_demoTests */,
+				A192ED380D4EB75FBDD6A04EE7564FCB /* Pods-klmhouse_demoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A81C0CB292E45FAFBFC1DA48D35250D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7A7BE07A93D389088D0712B8DA370ED /* CoreData.framework */,
+				3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B8E0AA948416237EB21A44415A4CADE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12000D63A2285233C29FA26C62A697F /* JSQCoreDataKit.framework */,
+				A740846275C1A9AB90D8C4BA85431B08 /* Pods_klmhouse_demo.framework */,
+				7F0D90E45D964FB0AB751DFC47B79A8E /* Pods_klmhouse_demo_klmhouse_demoTests.framework */,
+				9AD965C9BFDB44CF221C462C3AC1274D /* Pods_klmhouse_demoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0035ADD94C3A5120849A8DCDFFD8F70D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4090152A7E603F45D3B655C6936B16A4 /* Pods-klmhouse_demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FEF0D04E2E090EA4617279EB02BBE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079FABF71AF090DF314D762873C7D4C3 /* Pods-klmhouse_demoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B14FEF4717FFCED0F527DA91E43110 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B70F97AA6F56A6496D76B63B5A3EF6E /* Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693BFB704C2AD64BDE4129E4567BF876 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E672FB28EC47256C453F9087C33BFC /* JSQCoreDataKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		470BD75C98E16C18F28E6DF5C1B027E5 /* JSQCoreDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A84AD50F5EE1465E335C0ED2674A846 /* Build configuration list for PBXNativeTarget "JSQCoreDataKit" */;
+			buildPhases = (
+				9389B12BB41FACA0AC0AB9CD2694B900 /* Sources */,
+				B205D0DA839DE02E53A5774EB8C89B6F /* Frameworks */,
+				693BFB704C2AD64BDE4129E4567BF876 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSQCoreDataKit;
+			productName = JSQCoreDataKit;
+			productReference = F12000D63A2285233C29FA26C62A697F /* JSQCoreDataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B1832DAF143C947DD5523FFF8A9D495 /* Pods-klmhouse_demo-klmhouse_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF200224D4DA951CD2AE85D6420C900B /* Build configuration list for PBXNativeTarget "Pods-klmhouse_demo-klmhouse_demoTests" */;
+			buildPhases = (
+				F29C3544D422106F111F6AFC1340D308 /* Sources */,
+				93B3BCF4BDAF64C215F4791046E9E50E /* Frameworks */,
+				61B14FEF4717FFCED0F527DA91E43110 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE2ED6B17C0AFF8D2E44840FEAD6829 /* PBXTargetDependency */,
+			);
+			name = "Pods-klmhouse_demo-klmhouse_demoTests";
+			productName = "Pods-klmhouse_demo-klmhouse_demoTests";
+			productReference = 7F0D90E45D964FB0AB751DFC47B79A8E /* Pods_klmhouse_demo_klmhouse_demoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E503A345643BA9220D7959F5FDFF8447 /* Pods-klmhouse_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF56D4D12C16929676DC71982A12F9D7 /* Build configuration list for PBXNativeTarget "Pods-klmhouse_demoUITests" */;
+			buildPhases = (
+				B7A55E72529C17954C37C6FE9C396F01 /* Sources */,
+				6C51FB402FB4DFA3F25C61C75A2B889A /* Frameworks */,
+				18FEF0D04E2E090EA4617279EB02BBE3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-klmhouse_demoUITests";
+			productName = "Pods-klmhouse_demoUITests";
+			productReference = 9AD965C9BFDB44CF221C462C3AC1274D /* Pods_klmhouse_demoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F70FB11CEEAFC8B732AAF0E69A1AB25B /* Pods-klmhouse_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E714D3164A1A9915BFBA9CD942A3FE /* Build configuration list for PBXNativeTarget "Pods-klmhouse_demo" */;
+			buildPhases = (
+				4E11E1FF1EE37E0EDB16F39E5E2903AD /* Sources */,
+				F1F268327860D2884DCAB66B7B075E2A /* Frameworks */,
+				0035ADD94C3A5120849A8DCDFFD8F70D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-klmhouse_demo";
+			productName = "Pods-klmhouse_demo";
+			productReference = A740846275C1A9AB90D8C4BA85431B08 /* Pods_klmhouse_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B8E0AA948416237EB21A44415A4CADE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				470BD75C98E16C18F28E6DF5C1B027E5 /* JSQCoreDataKit */,
+				F70FB11CEEAFC8B732AAF0E69A1AB25B /* Pods-klmhouse_demo */,
+				8B1832DAF143C947DD5523FFF8A9D495 /* Pods-klmhouse_demo-klmhouse_demoTests */,
+				E503A345643BA9220D7959F5FDFF8447 /* Pods-klmhouse_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E11E1FF1EE37E0EDB16F39E5E2903AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0804164EC2384511B0D7CF3B1058A081 /* Pods-klmhouse_demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9389B12BB41FACA0AC0AB9CD2694B900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EC4EDE9615EBAF58435AF3A44C2358 /* CoreDataEntityProtocol.swift in Sources */,
+				98AC062F3C93E1F2E579880ABF629C99 /* CoreDataFunctions.swift in Sources */,
+				DBEA6C56209BDEC62CEFB0E331618C5F /* CoreDataModel.swift in Sources */,
+				7243AB32D074D55C8E17338CB8E6DC31 /* CoreDataStack.swift in Sources */,
+				99F4E1460A3040288DD91C5048ED018B /* CoreDataStackFactory.swift in Sources */,
+				1D070120337DA7B6D62FE4F4F82ACE85 /* Equatable.swift in Sources */,
+				DE1CCE77D41F843C57CFBD36B0447BD2 /* JSQCoreDataKit-dummy.m in Sources */,
+				B5233E0FC4CF6ED0A65508100333684E /* Migrate.swift in Sources */,
+				E165AE2690E1B108D2462953DA79E39C /* SaveResult.swift in Sources */,
+				2CFF298DDE12D684308ABD30D7B21382 /* StackResult.swift in Sources */,
+				00F2EE57EA34E8D54483283D66FC0B32 /* StoreType.swift in Sources */,
+				E2943A08521F541D9C2692FC8EF035CB /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A55E72529C17954C37C6FE9C396F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEF68E776854C3B292A0BAEE2ED01AC /* Pods-klmhouse_demoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29C3544D422106F111F6AFC1340D308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5E75094200977C35DF8F98AE95DFED /* Pods-klmhouse_demo-klmhouse_demoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE2ED6B17C0AFF8D2E44840FEAD6829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSQCoreDataKit;
+			target = 470BD75C98E16C18F28E6DF5C1B027E5 /* JSQCoreDataKit */;
+			targetProxy = 823D7D2641CC9BA380F970667AD86951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AA37D2365E37C737ECB3679892A909D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC95CCF59EF575F5B3AC58067CB1437 /* Pods-klmhouse_demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-klmhouse_demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klmhouse_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BC0B67EB26D0F7E09DB0E2F3FCD540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156B85534D8D1A53672BB781F33724D5 /* JSQCoreDataKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSQCoreDataKit/JSQCoreDataKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSQCoreDataKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSQCoreDataKit/JSQCoreDataKit.modulemap";
+				PRODUCT_NAME = JSQCoreDataKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2544D74037C12D097EE29F9FBF9A2566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4489FDAC48B9B3B18251F3B268BD7C /* Pods-klmhouse_demoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-klmhouse_demoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klmhouse_demoUITests/Pods-klmhouse_demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klmhouse_demoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41A8A3EA608913448E6F4636D6EB8C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156B85534D8D1A53672BB781F33724D5 /* JSQCoreDataKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSQCoreDataKit/JSQCoreDataKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSQCoreDataKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSQCoreDataKit/JSQCoreDataKit.modulemap";
+				PRODUCT_NAME = JSQCoreDataKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7650ADBE8AB07217B60991D9D132B80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A80468AB2E10D00321133D181158560 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klmhouse_demo_klmhouse_demoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE0D050E0C8C9778344E40B06954D148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888145509E92D0B8335D15438FEAE91B /* Pods-klmhouse_demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-klmhouse_demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klmhouse_demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C6ED66F3791D90B02CD505BB093E92DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89801C1AA1E05A9EAACA6734A49EABDD /* Pods-klmhouse_demoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-klmhouse_demoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klmhouse_demoUITests/Pods-klmhouse_demoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klmhouse_demoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E21CE815C90B15AFDC4D582281C5CC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D60DDE2B48929BE87B6154F51FFD01 /* Pods-klmhouse_demo-klmhouse_demoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_klmhouse_demo_klmhouse_demoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A84AD50F5EE1465E335C0ED2674A846 /* Build configuration list for PBXNativeTarget "JSQCoreDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8A3EA608913448E6F4636D6EB8C3B /* Debug */,
+				1BC0B67EB26D0F7E09DB0E2F3FCD540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E714D3164A1A9915BFBA9CD942A3FE /* Build configuration list for PBXNativeTarget "Pods-klmhouse_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0D050E0C8C9778344E40B06954D148 /* Debug */,
+				1AA37D2365E37C737ECB3679892A909D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF56D4D12C16929676DC71982A12F9D7 /* Build configuration list for PBXNativeTarget "Pods-klmhouse_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544D74037C12D097EE29F9FBF9A2566 /* Debug */,
+				C6ED66F3791D90B02CD505BB093E92DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF200224D4DA951CD2AE85D6420C900B /* Build configuration list for PBXNativeTarget "Pods-klmhouse_demo-klmhouse_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21CE815C90B15AFDC4D582281C5CC3D /* Debug */,
+				7650ADBE8AB07217B60991D9D132B80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

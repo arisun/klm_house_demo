@@ -1,0 +1,6 @@
+framework module Pods_klmhouse_demo_klmhouse_demoTests {
+  umbrella header "Pods-klmhouse_demo-klmhouse_demoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
