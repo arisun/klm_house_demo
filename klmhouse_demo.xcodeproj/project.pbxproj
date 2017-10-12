@@ -126,6 +126,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E80A5B2E1F8F50790086F33F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
 		E89421821F8E1A570029E5C7 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +159,7 @@
 		E894218D1F8E1A570029E5C7 /* klmhouse_demo */ = {
 			isa = PBXGroup;
 			children = (
+				E80A5B2E1F8F50790086F33F /* CustomCell */,
 				E8FC3E701F8E587500EBC11E /* Utility */,
 				E89421BF1F8E1BE80029E5C7 /* Controllers */,
 				E89421C01F8E1FFC0029E5C7 /* Models */,
@@ -203,7 +212,6 @@
 		E8FC3E701F8E587500EBC11E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */,
 				E80A5B281F8F48320086F33F /* SetFavoriteProtocol.swift */,
 				E80A5B2C1F8F4E440086F33F /* GlobalClass.swift */,
 			);
