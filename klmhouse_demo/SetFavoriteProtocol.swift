@@ -12,3 +12,4 @@ protocol SetFavoriteProtocol {
 
     func favoriteHouseSelected()
 }
+

@@ -22,7 +22,7 @@ func loadData() -> [House]{
     return houseCollections ?? []
 }
 
-func getModifiedList(houselist:[House] , isUserCollectionView collection: Bool) -> [[House]]{
+func getModifiedList(houselist:[House] , isUserCollectionView collection: Bool = false) -> [[House]]{
 
     var ddArray = [[House]]()
     var array = [House]()

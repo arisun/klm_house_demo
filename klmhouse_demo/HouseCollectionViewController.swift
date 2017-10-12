@@ -27,7 +27,7 @@ class HouseCollectionViewController: UIViewController {
 
         super.viewDidLoad()
 
-        houseListsCollection = getModifiedList(houselist: loadData(), isUserCollectionView: false)
+        houseListsCollection = getModifiedList(houselist: loadData())
 
         self.setUpCollectionView()
 
@@ -148,48 +148,7 @@ extension HouseCollectionViewController: SetFavoriteProtocol{
 
     func favoriteHouseSelected() {
 
-        houseListsCollection = getModifiedList(houselist: loadData(), isUserCollectionView: false)
+        houseListsCollection = getModifiedList(houselist: loadData())
         collectionView.reloadData()
     }
 }
-
-
-//extension HouseCollectionViewController{
-//
-//    func loadData() -> [House]{
-//        var houseCollections:[House]?
-//        do {
-//            houseCollections = try context.fetch(House.fetchRequest())
-//        }catch {
-//            fatalError("Error fetching data from CoreData")
-//
-//        }
-//        return houseCollections ?? []
-//    }
-//
-//    func getModifiedList(houselist:[House]) -> [[House]]{
-//
-//        var ddArray = [[House]]()
-//        var array = [House]()
-//        let filterList = houselist.filter() {$0.isUserCollected == false}
-//
-//
-//        for (index,item) in filterList.enumerated(){
-//
-//            if index > 0 && index % 4 == 0{
-//                ddArray.append(array)
-//                array = [House]()
-//                array.append(item)
-//                continue
-//            }
-//            array.append(item)
-//        }
-//
-//        if array.count > 0{
-//            ddArray.append(array)
-//        }
-//        
-//        return ddArray
-//    }
-//}
-
