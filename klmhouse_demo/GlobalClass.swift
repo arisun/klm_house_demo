@@ -39,7 +39,7 @@ func getModifiedList(houselist:[House] , isUserCollectionView collection: Bool =
 
         if index > 0 && index % 4 == 0{
             ddArray.append(array)
-            array = [House]()
+            array.removeAll()
             array.append(item)
             continue
         }
