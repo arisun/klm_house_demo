@@ -82,6 +82,9 @@ class DetailViewController: UIViewController {
             }
 
             lblHouse.text = houseData.houseName ?? ""
+            if let address = houseData.houseAddress{
+                lblHouse.text?.append("\n \(address)")
+            }
 
             if let desc = houseData.houseDescription{
 
