@@ -10,6 +10,8 @@
 		3AB40C1AEC28AECF0A2310B6 /* Pods_klmhouse_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D4EE4C11EDA03D720B91CE /* Pods_klmhouse_demo.framework */; };
 		5F821EFA9DCEED7ACB8C0972 /* Pods_klmhouse_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721927E732B21BD31505E36E /* Pods_klmhouse_demoUITests.framework */; };
 		DBD6EB006B78D72457CB6D4C /* Pods_klmhouse_demo_klmhouse_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E95F6D1D923EBBEFD8C8A6 /* Pods_klmhouse_demo_klmhouse_demoTests.framework */; };
+		E80A5B291F8F48320086F33F /* SetFavoriteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80A5B281F8F48320086F33F /* SetFavoriteProtocol.swift */; };
+		E80A5B2D1F8F4E440086F33F /* GlobalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80A5B2C1F8F4E440086F33F /* GlobalClass.swift */; };
 		E894218F1F8E1A570029E5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894218E1F8E1A570029E5C7 /* AppDelegate.swift */; };
 		E89421911F8E1A570029E5C7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89421901F8E1A570029E5C7 /* MasterViewController.swift */; };
 		E89421941F8E1A570029E5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89421921F8E1A570029E5C7 /* Main.storyboard */; };
@@ -51,6 +53,8 @@
 		B6E95F6D1D923EBBEFD8C8A6 /* Pods_klmhouse_demo_klmhouse_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klmhouse_demo_klmhouse_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1552DEBCBB151CF53C39FE5 /* Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demo-klmhouse_demoTests/Pods-klmhouse_demo-klmhouse_demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5D015D29DFC81788F06692D /* Pods-klmhouse_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klmhouse_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-klmhouse_demo/Pods-klmhouse_demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E80A5B281F8F48320086F33F /* SetFavoriteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFavoriteProtocol.swift; sourceTree = "<group>"; };
+		E80A5B2C1F8F4E440086F33F /* GlobalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalClass.swift; sourceTree = "<group>"; };
 		E894218B1F8E1A570029E5C7 /* klmhouse_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klmhouse_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E894218E1F8E1A570029E5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E89421901F8E1A570029E5C7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				E8FC3E731F8E997B00EBC11E /* CollectionViewCustomCell.swift */,
+				E80A5B281F8F48320086F33F /* SetFavoriteProtocol.swift */,
+				E80A5B2C1F8F4E440086F33F /* GlobalClass.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -499,11 +505,13 @@
 			files = (
 				E89421911F8E1A570029E5C7 /* MasterViewController.swift in Sources */,
 				E89421C21F8E21BD0029E5C7 /* HouseCollectionViewController.swift in Sources */,
+				E80A5B291F8F48320086F33F /* SetFavoriteProtocol.swift in Sources */,
 				E894218F1F8E1A570029E5C7 /* AppDelegate.swift in Sources */,
 				E89421C41F8E21D20029E5C7 /* MyCollectionViewController.swift in Sources */,
 				E89421971F8E1A570029E5C7 /* klmhouse_demo.xcdatamodeld in Sources */,
 				E8FC3E741F8E997B00EBC11E /* CollectionViewCustomCell.swift in Sources */,
 				E8FC3E761F8EA56500EBC11E /* DetailViewController.swift in Sources */,
+				E80A5B2D1F8F4E440086F33F /* GlobalClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,13 +41,7 @@ class MyCollectionViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        var array = [[]]
-        if let houses = loadData() {
-            array = self.getSavedCollectionList(houselist: houses)
-
-        }
-
-        self.houseListsCollection = array as! [[House]]
+        self.houseListsCollection = getModifiedList(houselist: loadData(), isUserCollectionView: true)
 
         self.setUpCollectionView()
 
@@ -101,42 +95,6 @@ extension MyCollectionViewController {
 
         return houseListsCollection[(indexPath as NSIndexPath).section][(indexPath as IndexPath).row]
 
-    }
-
-    func loadData() -> [House]?{
-        let houseCollectionsList : [House]?
-        do {
-            houseCollectionsList = try context.fetch(House.fetchRequest())
-        }catch {
-            fatalError("Error fetching data from CoreData")
-
-        }
-        return houseCollectionsList ?? []
-    }
-
-    func getSavedCollectionList(houselist:[House]) -> [[House]]{
-
-        var ddArray = [[House]]()
-        var array = [House]()
-
-        let filterList = houselist.filter() {$0.isUserCollected == true}
-
-        for (index,item) in filterList.enumerated(){
-
-            if index > 0 && index % 4 == 0{
-                ddArray.append(array)
-                array = [House]()
-                array.append(item)
-                continue
-            }
-            array.append(item)
-        }
-
-        if array.count > 0{
-            ddArray.append(array)
-        }
-        
-        return ddArray
     }
 }
 

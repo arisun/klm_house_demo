@@ -24,6 +24,8 @@ class DetailViewController: UIViewController {
 
     var houseData : House?
 
+    var favoriteDelegate: SetFavoriteProtocol? = nil
+
 
     override func viewDidLoad() {
 
@@ -114,6 +116,9 @@ extension DetailViewController{
 
             do{
                 try context.save()
+                if self.favoriteDelegate != nil{
+                    self.favoriteDelegate?.favoriteHouseSelected()
+                }
             }
             catch{
                 fatalError("unable to save data")

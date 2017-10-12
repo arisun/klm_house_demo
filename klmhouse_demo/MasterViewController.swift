@@ -27,16 +27,6 @@ class MasterViewController: UIViewController {
         // Instantiate View Controller
         var viewController = storyboard.instantiateViewController(withIdentifier: "HouseCollectionViewController") as! HouseCollectionViewController
 
-        viewController.houseListsCollection = {
-
-            var array = [[]]
-            if let houses = self.houseCollections {
-                array = self.getModifiedList(houselist: self.houseCollections!, isUserCollectionSelected: false)
-
-            }
-            return array as! [[House]]
-        }()
-
         // Add View Controller as Child View Controller
         self.add(asChildViewController: viewController)
 
@@ -49,16 +39,6 @@ class MasterViewController: UIViewController {
 
         // Instantiate View Controller
         var viewController = storyboard.instantiateViewController(withIdentifier: "MyCollectionViewController") as! MyCollectionViewController
-
-        viewController.houseListsCollection = {
-
-            var array = [[]]
-            if let houses = self.houseCollections {
-                array = self.getModifiedList(houselist: self.houseCollections!, isUserCollectionSelected: true)
-
-            }
-            return array as! [[House]]
-        }()
 
         // Add View Controller as Child View Controller
         self.add(asChildViewController: viewController)
@@ -73,6 +53,12 @@ class MasterViewController: UIViewController {
 
         setUpView()
     }
+
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+
     
 
     override func didReceiveMemoryWarning() {
@@ -83,8 +69,6 @@ class MasterViewController: UIViewController {
     private func setUpView(){
 
         saveData()
-
-        _ = self.loadData()
 
         setUpSegmentedControl()
 
@@ -105,7 +89,6 @@ class MasterViewController: UIViewController {
 
 
     func selectionDidChange(_ sender: UISegmentedControl) {
-        _ = self.loadData()
 
         updateView()
     }
@@ -193,45 +176,5 @@ extension MasterViewController{
         }
         
     }
-
-
-    func loadData() -> [House]{
-            do {
-                houseCollections = try context.fetch(House.fetchRequest())
-            }catch {
-                fatalError("Error fetching data from CoreData")
-
-            }
-            return houseCollections ?? []
-    }
-
-    func getModifiedList(houselist:[House], isUserCollectionSelected selected: Bool) -> [[House]]{
-
-        var ddArray = [[House]]()
-        var array = [House]()
-        var filterList = houselist
-
-        if selected{
-            filterList = houselist.filter() {$0.isUserCollected == true}
-        }
-
-        for (index,item) in filterList.enumerated(){
-
-            if index > 0 && index % 4 == 0{
-                ddArray.append(array)
-                array = [House]()
-                array.append(item)
-                continue
-            }
-            array.append(item)
-        }
-
-        if array.count > 0{
-            ddArray.append(array)
-        }
-
-        return ddArray
-    }
 }
-
 
